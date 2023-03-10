@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function InfoTop() {
   return (
-    <div className="bg-white py-8">
+    <div className="bg-white pb-8">
       <div className="mx-auto max-w-screen-2xl">
         <div className="flex flex-col overflow-hidden rounded-lg bg-gray-200 sm:flex-row md:h-80">
           {/* <!-- image - start --> */}
