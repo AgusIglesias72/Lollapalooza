@@ -90,7 +90,7 @@ export default function Footer() {
                     className="text-white hover:text-gray-700 active:text-gray-600 transition duration-100"
                   >
                     <svg
-                      class="h-5 w-5 "
+                      className="h-5 w-5 "
                       width="24"
                       height="24"
                       viewBox="0 0 24 24"
@@ -107,7 +107,7 @@ export default function Footer() {
                     className="text-white hover:text-gray-700 active:text-gray-600 transition duration-100"
                   >
                     <svg
-                      class="h-5 w-5 "
+                      className="h-5 w-5 "
                       width="24"
                       height="24"
                       fill="currentColor"
