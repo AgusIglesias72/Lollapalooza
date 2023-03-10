@@ -28,13 +28,9 @@ export default function Navbar() {
     },
   ]
 
-  // turn this to json
-
   const toggleNav = () => {
     setNavStatus(!navStatus)
   }
-
-  const dir = window.location.pathname
 
   return (
     <nav className="bg-white py-2 rounded fixed top-0 z-50 w-full">
@@ -77,16 +73,21 @@ export default function Navbar() {
           className={`${navStatus ? '' : 'hidden'} w-full md:block md:w-auto `}
           id="navbar-default"
         >
-          <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:justify-center md:space-x-8 md:mt-0 md:text-md md:font-medium md:border-0 md:bg-white">
+          <ul className="flex flex-col gap-2 md:gap-0 p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:justify-center md:space-x-8 md:mt-0 md:text-md md:font-medium md:border-0 md:bg-white">
             {menuOptions.map((option) => {
               return (
                 <li key={option.name}>
                   <Link
                     to={option.path}
+                    onClick={
+                      location.pathname === option.path
+                        ? null
+                        : () => window.scrollTo(0, 0)
+                    }
                     className={
-                      'hola' === option.path
-                        ? 'block py-3 md:py-1  text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700'
-                        : 'block py-3 md:py-1  text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700'
+                      location.pathname === option.path
+                        ? 'block py-3 md:py-1  text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 pl-4 md:pl-0'
+                        : 'block py-3 md:py-1  text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 pl-4 md:pl-0'
                     }
                   >
                     {option.name}
