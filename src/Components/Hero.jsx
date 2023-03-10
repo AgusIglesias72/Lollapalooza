@@ -10,25 +10,17 @@ export default function Hero() {
             className="w-full h-full object-cover object-center absolute inset-0"
           />
 
-          {/* <!-- overlay - start --> */}
           <div className="bg-indigo-500 mix-blend-multiply absolute inset-0"></div>
-          {/* <!-- overlay - end --> */}
 
-          {/* <!-- text start --> */}
           <div className="sm:max-w-xl flex flex-col content-between  relative p-4 space-y-20">
-            {/* <p className="text-indigo-200 text-lg sm:text-xl text-center mb-4 md:mb-8">
-              Very proud to announce that we will be at
-            </p> */}
             <div className="text-white text-4xl sm:text-5xl md:text-6xl font-bold text-center mb-8 md:mb-12">
               <img
                 src="https://global-uploads.webflow.com/61648208fbba11601a19f03a/61648208fbba11062a19f0ce_logo-lolla-b5ed578f.png"
                 className="mr-3 w-96 h-auto md:w-fit"
                 alt="Lollapalooza Logo"
               />
-              {/* 2023 */}
             </div>
 
-            {/* <div className="w-full flex flex-col sm:flex-row sm:justify-center gap-2.5 "> */}
             <div className="w-full grid place-items-center">
               <a
                 href="https://www.allaccess.com.ar/event/lollapalooza-2023"
@@ -37,16 +29,8 @@ export default function Hero() {
               >
                 Entradas
               </a>
-
-              {/* <a
-                href="#"
-                className="inline-block bg-gray-200 hover:bg-gray-300 focus-visible:ring ring-indigo-300 text-gray-500 active:text-gray-700 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3"
-              >
-                Take tour
-              </a> */}
             </div>
           </div>
-          {/* <!-- text end --> */}
         </section>
       </div>
     </div>

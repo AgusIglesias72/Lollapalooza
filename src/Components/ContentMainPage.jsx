@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export function TextContent() {
   return (
     <div className="mx-auto order-first lg:order-none flex flex-col justify-between">
@@ -66,30 +68,30 @@ export default function ContentMainPage() {
         <div className="flex flex-col justify-between gap-2 rounded-lg  md:h-auto h-2/3  md:px-0">
           <div className="flex flex-col gap-4">
             <img
-              src="https://media.gettyimages.com/id/1331727005/es/foto/festival-goers-attend-day-3-of-lollapalooza-at-grant-park-on-july-30-2021-in-chicago-illinois.jpg?s=612x612&w=0&k=20&c=EVf5R447sva_NcMfjveNxwJ4x7aeFgRU8ED5qILocgI="
+              src="https://assets-global.website-files.com/5e927ba01e4ad56ae5465eb8/6373e0136ca49d5b23f6c2be_Platinum-by-Taylor-Regulski-for-Lollapalooza-2022_3476-1200x800-p-1080.jpg"
               loading="lazy"
-              alt="Picture of Lollapalooza International"
+              alt="Picture of two people dancing at Lollapalooza"
               className="h-auto w-auto object-cover object-center rounded bg-gray-100 shadow-lg max-h-96 xl:max-h-80"
             />
             <img
-              src="https://media.gettyimages.com/id/1234300939/es/foto/general-atmosphere-on-day-one-of-lollapalooza-at-grant-park-on-july-29-2021-in-chicago-illinois.jpg?s=612x612&w=0&k=20&c=08Wi-WXhEFZrQFiz2diWgC22LjRoPfZSM6NAPRQIZZQ="
+              src="https://assets-global.website-files.com/5e927ba01e4ad56ae5465eb8/622e4f5227d918f016670fcc_5e92861406600f230cd51506_Artboard%20Copy%203-p-1080.jpeg"
               loading="lazy"
-              alt="Picture of Lollapalooza International"
-              className="h-auto w-auto object-cover object-center rounded hidden lg:block bg-gray-100 shadow-lg xl:max-h-80"
+              alt="Man being cheered on by crowd at Lollapalooza"
+              className="h-auto w-auto object-cover object-top rounded hidden lg:block bg-gray-100 shadow-lg xl:max-h-80"
             />
             <img
-              src="https://media.gettyimages.com/id/1331402644/es/foto/max-schneider-aka-max-performs-during-lollapalooza-at-grant-park-on-july-29-2021-in-chicago.jpg?s=612x612&w=0&k=20&c=h9fE6e2z_cr66EBqv1T5LU-X9TR-zNyffgDckXD8MCk="
+              src="https://assets-global.website-files.com/5e927ba01e4ad56ae5465eb8/6373e013bb8f6f35427ef79b_Experience-by-Taylor-Regulski-for-Lollapalooza-2022_2617-1200x800-p-1080.jpg"
               loading="lazy"
-              alt="Picture of Lollapalooza International"
-              className="h-auto w-auto object-cover object-top rounded hidden lg:block bg-gray-100 shadow-lg xl:max-h-80"
+              alt="Woman enjoying concert at Lollapalooza in a sunny day"
+              className="h-auto w-auto object-cover object-center rounded hidden lg:block bg-gray-100 shadow-lg xl:max-h-80"
             />
           </div>
 
-          <a href="https://global.lollapalooza.com/" target="_blank">
+          <Link to="https://global.lollapalooza.com/" target="_blank">
             <button className="btn btn-secondary w-full ">
               Lollapalooza Internacional
             </button>
-          </a>
+          </Link>
         </div>
         <TextContent />
       </div>

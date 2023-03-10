@@ -33,7 +33,7 @@ export default function InfoComponent() {
             <img
               src="https://global-uploads.webflow.com/61648208fbba11601a19f03a/62b9c26f869bc7c25ce5f387_LOLLA_ARG2022_0318_174628-9676_GuiU.jpg"
               loading="lazy"
-              alt="Photo by Dom Hill"
+              alt="Picture of children playing at Lollapalooza"
               className="h-full w-full object-cover object-center"
             />
           </div>
@@ -67,9 +67,9 @@ export default function InfoComponent() {
           {/* <!-- image - start --> */}
           <div className="order-first h-48 w-full bg-gray-700 sm:order-first sm:h-auto sm:w-1/2 lg:w-3/5">
             <img
-              src="https://media.gettyimages.com/id/604507582/es/foto/visitors-take-photos-of-their-food-during-the-second-day-of-lollapalooza-festival-at-the.jpg?s=612x612&w=0&k=20&c=HTAHN2edgM4JWjJhXajADM5_yAHqmDOAyHGksAnI1Rs="
+              src="https://assets-global.website-files.com/5e927ba01e4ad56ae5465eb8/6373e01327e226ef9a7b5c7b_Fatso%27s-Last-Stand-by-Roger-Ho-for-Lollapalooza-2022_102250-1200x800-p-1080.jpg"
               loading="lazy"
-              alt="Photo by Dom Hill"
+              alt="People taking photos of their food at Lollapalooza"
               className="h-full w-full object-cover object-center"
             />
           </div>
