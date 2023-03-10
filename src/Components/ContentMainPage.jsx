@@ -1,3 +1,64 @@
+export function TextContent() {
+  return (
+    <div className="mx-auto order-first lg:order-none flex flex-col justify-between">
+      <div className="">
+        <h1 className="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6">
+          Lollapalooza Argentina 2023
+        </h1>
+
+        <div className="mb-6 text-gray-500 sm:text-lg md:mb-8 text-justify">
+          <p>
+            El Lollapalooza Argentina 2023 es uno de los festivales de música
+            más grandes y populares del país. Este año, el festival cuenta con
+            un line up impresionante, con artistas de renombre internacional
+            como{' '}
+            <span className="font-bold">
+              Billie Eilish, Drake, Twenty One Pilots, Time Impala, Rosalía y
+              muchos más
+            </span>
+            . Con varios escenarios y géneros musicales, el Lolapalooza
+            Argentina tiene algo para todos, desde rock y pop hasta electrónica
+            y hip hop.
+            <br />
+            <br />
+            Además de la música en vivo, el festival ofrece una amplia gama de
+            actividades para todos los gustos, desde áreas de comida y bebida,
+            ferias de merchandaising hasta juegos interactivos y áreas de
+            descanso. Prepárate para disfrutar de una experiencia musical única
+            y compartir momentos inolvidables con amigos y familiares.
+            <br />
+            <br />
+            Las entradas para el Lollapalooza Argentina 2023 están disponibles
+            en la página oficial del evento, pero se recomienda adquirirlas con
+            anticipación debido a la gran cantidad de artistas de renombre y la
+            popularidad del festival. No pierdas la oportunidad de ser parte de
+            una de las mejores experiencias musicales del año.
+            <br />
+            <br />
+          </p>
+          <p className="text-center">
+            El festival se lleva a cabo en el Hipódromo de San Isidro los días
+            17, 18 y 19 de marzo.
+          </p>
+          <br />
+          <p className="text-center font-bold">
+            ¡Compra tus entradas el Lollapalooza Argentina 2023 ahora mismo y
+            prepárate para vivir tres días de música, diversión y mucha energía!
+          </p>
+        </div>
+      </div>
+      <a
+        href="https://www.allaccess.com.ar/event/lollapalooza-2023"
+        target="_blank"
+      >
+        <button className="btn w-full text-white cursor-pointer">
+          Comprar Entradas
+        </button>
+      </a>
+    </div>
+  )
+}
+
 export default function ContentMainPage() {
   return (
     <div className="bg-white py-6 ">
@@ -30,66 +91,7 @@ export default function ContentMainPage() {
             </button>
           </a>
         </div>
-
-        <div className="mx-auto  order-first lg:order-none flex flex-col justify-between">
-          <div className="lg:px-10">
-            <h1 className="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6">
-              Lollapalooza Argentina 2023
-            </h1>
-
-            <div className="mb-6 text-gray-500 sm:text-lg md:mb-8 text-justify">
-              <p>
-                El Lollapalooza Argentina 2023 es uno de los festivales de
-                música más grandes y populares del país. Este año, el festival
-                cuenta con un line up impresionante, con artistas de renombre
-                internacional como{' '}
-                <span className="font-bold">
-                  Billie Eilish, Drake, Twenty One Pilots, Time Impala, Rosalía
-                  y muchos más
-                </span>
-                . Con varios escenarios y géneros musicales, el Lolapalooza
-                Argentina tiene algo para todos, desde rock y pop hasta
-                electrónica y hip hop.
-                <br />
-                <br />
-                Además de la música en vivo, el festival ofrece una amplia gama
-                de actividades para todos los gustos, desde áreas de comida y
-                bebida, ferias de merchandaising hasta juegos interactivos y
-                áreas de descanso. Prepárate para disfrutar de una experiencia
-                musical única y compartir momentos inolvidables con amigos y
-                familiares.
-                <br />
-                <br />
-                Las entradas para el Lollapalooza Argentina 2023 están
-                disponibles en la página oficial del evento, pero se recomienda
-                adquirirlas con anticipación debido a la gran cantidad de
-                artistas de renombre y la popularidad del festival. No pierdas
-                la oportunidad de ser parte de una de las mejores experiencias
-                musicales del año.
-                <br />
-                <br />
-              </p>
-              <p className="text-center">
-                El festival se lleva a cabo en el Hipódromo de San Isidro los
-                días 17, 18 y 19 de marzo.
-              </p>
-              <br />
-              <p className="text-center font-bold">
-                ¡Compra tus entradas el Lollapalooza Argentina 2023 ahora mismo
-                y prepárate para vivir tres días de música, diversión y mucha
-                energía!
-              </p>
-            </div>
-          </div>
-          <a
-            href="https://www.allaccess.com.ar/event/lollapalooza-2023"
-            target="_blank"
-          >
-            <button className="btn w-full text-white cursor-pointer">
-              Comprar Entradas
-            </button>
-          </a>
-        </div>
+        <TextContent />
       </div>
     </div>
   )

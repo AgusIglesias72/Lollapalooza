@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="bg-white mt-16 md:mt-26 pt-2 pb-2">
+    <div className="bg-white mt-16 md:mt-20 pt-2 pb-2">
       <div className="max-w-screen-2xl px-4 md:px-8 mx-auto">
         <section className="min-h-96 flex justify-center flex-1 shrink-0 bg-gray-100 overflow-hidden shadow-lg rounded-lg relative py-14 md:py-auto xl:pb-48">
           <img
